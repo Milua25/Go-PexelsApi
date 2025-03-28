@@ -268,7 +268,7 @@ func (c *Client) GetRemainingRequestsInThisMonth() int32 {
 	return c.RemainingTimes
 }
 func main() {
-	err := os.Setenv("PexelsToken", "fPDyRiWWZrWpzNnqqhOyYhPTFfBqnKdFN15NN977Ox1bvffUWTxsQ191")
+	err := os.Setenv("PexelsToken", "xxx")
 
 	if err != nil {
 		fmt.Errorf("could not set environment variable:%v", err)
